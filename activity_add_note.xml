@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/noteTitle"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/noteContent"
+        android:hint="Content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/saveNoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#D97F99"
+        android:text="Save"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/deleteNoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Note"
+        android:backgroundTint="#D97F99"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"/>
+</LinearLayout>
